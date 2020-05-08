@@ -1,2 +1,21 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="color pt-5 container">
+  <h2>Bienvenue sur Endor !</h2>
+  <p>Ici vous aurez la possibilité de lire des nouvelles mais aussi de proposer vos oeuvres.</p>
+  <p>Tout comme Endor, à la fois planète dans Star Wars et terre du milieu (nom elfique) dans le seigneur des anneaux,
+   vous aurez la possibilité de voyager dans deux univers différents, la fantasy et la science-fiction.  </p>
+  <p>Alors, quel sera votre choix ?</p>
+
+  <ul class="card-list">
+    <li class="card">
+      <a class="card-image" href="#">
+        <%= image_tag "https://images.unsplash.com/photo-1519872436884-4a50eb5a62db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80", alt: "Fantasy" %>
+      </a>
+    </li>
+
+    <li class="card">
+      <a class="card-image" href="#">
+        <%= image_tag "https://images.unsplash.com/photo-1587279485070-47f85a2bd5ad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80", alt: "Science-fiction" %>
+      </a>
+    </li>
+  </ul>
+</div>
